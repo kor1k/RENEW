@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+.idea/
+DOCUMENTATION/
+HTML/.DS_Store
+HTML/images/.DS_Store
+HTML/images/blogImages/.DS_Store
+HTML/images/parallaxBg/.DS_Store
+HTML/images/portfolioImages/.DS_Store
+HTML/images/sliderImages/.DS_Store
+HTML/images/teamImages/.DS_Store
+HTML/images/testiImages/.DS_Store
+HTML/js/.DS_Store
+LICENSE/
