@@ -83,13 +83,13 @@ header.fixed {
     display: inline-block;
     font-size: 1.1rem;
     text-transform: uppercase;
-    color: #ffb375;
+    color: #F4907D;
     position: relative;
 
 }
 
 .switchedHeader .logo h1 {
-    color: #242424;
+    color: #F4907D;
 }
 
 
@@ -107,7 +107,7 @@ nav#mainNav li {
 
 
 nav#mainNav li a {
-    color: #ffb375;
+    color: #F4907D;
     display: block;
     padding: 20px 15px;
     position: relative;
@@ -115,7 +115,7 @@ nav#mainNav li a {
 }
 
 .switchedHeader nav#mainNav li a {
-    color: #999999 !important;
+    color: #F4907D !important;
 
 }
 
@@ -130,12 +130,12 @@ nav#mainNav li a {
 
 .mobileBtn i {
     font-size: 16px;
-    color: #FFC000;
+    color: #F4907D;
 }
 
 
 .switchedHeader nav#mainNav li a.active:after {
-    color: #999999;
+    color: #F4907D;
     content: ".";
     font-size: 13px;
     margin-right: 10px;
@@ -148,6 +148,25 @@ nav#mainNav li a {
 
 /*End header*/
 
+/*map*/
+
+/*.map {*/
+    /*margin: 2rem 0 2rem 20rem;*/
+    /*text-align: center;*/
+/*}*/
+/*.mapouter {*/
+    /*text-align: center;*/
+    /*height: 320px;*/
+    /*width: 797px;*/
+/*}*/
+
+/*.gmap_canvas {*/
+    /*overflow: hidden;*/
+    /*background: none !important;*/
+    /*height: 320px;*/
+    /*width: 797px;*/
+/*}*/
+/*end map*/
 
 /*Main slider*/
 
@@ -159,10 +178,8 @@ nav#mainNav li a {
 
 
 .mainSlider .slides li {
-
     background-size: cover !important;
     height: 800px;
-
 }
 
 
@@ -189,7 +206,7 @@ nav#mainNav li a {
 
 
 .caption h1 {
-    color: #ffffff;
+    color: #F4907D;
     font-size: 50px;
     font-family: 'playfair_displaybold_italic', Arial, sans-serif;
 
@@ -1713,8 +1730,13 @@ a.launch {
         background-color: rgba(255, 255, 255, 0.97) !important;
     }
 
+    .val-new-font {
+        font-family: 'Open Sans', sans-serif; !important;
+    }
+
     .logo h1 {
-        color: #242424;
+        font-family: Orator, sans-serif; !important;
+        color: #F4907D;
     }
 
     .logo, nav#mainNav {
@@ -1747,7 +1769,7 @@ a.launch {
     nav#mainNav li a {
         padding: 3px 0px;
         display: inline-block;
-        color: #999999;
+        color: #F4907D;
     }
 
     .mobileBtn {
@@ -1760,6 +1782,7 @@ a.launch {
 
     .caption h1 {
         font-size: 40px;
+        color: #F4907D;
     }
 
     .caption p {
@@ -1909,6 +1932,8 @@ a.launch {
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width: 479px) {
 
+
+
     input, textarea {
         -webkit-appearance: none;
         -webkit-border-radius: 0;
@@ -1950,11 +1975,11 @@ a.launch {
     }
 
     .logo h1 {
-        color: #242424;
+        color: #F4907D;
     }
 
     .logo h1 span {
-        color: #d0a068;
+        color: #F4907D;
     }
 
     .logo, nav#mainNav {
