@@ -151,20 +151,20 @@ nav#mainNav li a {
 /*map*/
 
 /*.map {*/
-    /*margin: 2rem 0 2rem 20rem;*/
-    /*text-align: center;*/
+/*margin: 2rem 0 2rem 20rem;*/
+/*text-align: center;*/
 /*}*/
 /*.mapouter {*/
-    /*text-align: center;*/
-    /*height: 320px;*/
-    /*width: 797px;*/
+/*text-align: center;*/
+/*height: 320px;*/
+/*width: 797px;*/
 /*}*/
 
 /*.gmap_canvas {*/
-    /*overflow: hidden;*/
-    /*background: none !important;*/
-    /*height: 320px;*/
-    /*width: 797px;*/
+/*overflow: hidden;*/
+/*background: none !important;*/
+/*height: 320px;*/
+/*width: 797px;*/
 /*}*/
 /*end map*/
 
@@ -429,13 +429,13 @@ nav#mainNav li a {
 
 
 .facts {
-    background: url(../images/clothesPhoto/2-min.jpg);
+    background: url(../images/clothes-images/2-min-900x700.png);
     background-attachment: fixed;
     background-position: center top;
     background-repeat: repeat-y;
+    background-color: #fafafa;
     background-size: cover;
     min-height: 380px;
-    background-color: #fafafa;
     margin-top: 65px;
     position: relative;
     color: #ffffff;
@@ -1731,11 +1731,13 @@ a.launch {
     }
 
     .val-new-font {
-        font-family: 'Open Sans', sans-serif; !important;
+        font-family: 'Open Sans', sans-serif;
+    !important;
     }
 
     .logo h1 {
-        font-family: Orator, sans-serif; !important;
+        font-family: Orator, sans-serif;
+    !important;
         color: #F4907D;
     }
 
@@ -1931,7 +1933,6 @@ a.launch {
 
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width: 479px) {
-
 
 
     input, textarea {
